@@ -6,7 +6,14 @@
     <title>EmptyArray</title>
     <!-- Import Open Sans from Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Import icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
     <style>
+        /* Global box-sizing for better layout control */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
         body {
             background-color: #121212;
             color: #fff;
@@ -16,7 +23,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100svh;
             text-align: center;
         }
         .container {
@@ -73,8 +80,9 @@
 <div class="container">
     <img class="portrait" src="portrait.jpg" alt="Portrait of Empty Array Band">
     <div class="social-icons">
-      <a href="https://facebook.com/empty.array.band" target="_blank">🌐</a>
-      <a href="https://instagram.com/empty.array.band" target="_blank">📸</a>
+      <a href="https://facebook.com/empty.array.band" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://instagram.com/empty.array.band" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://soundcloud.com/empty_array_band" target="_blank"><i class="fa fa-soundcloud"></i></a>
     </div>
     <pre class="header">
       <code class="code">
