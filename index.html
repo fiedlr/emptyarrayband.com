@@ -15,7 +15,9 @@
 }
 
         body {
-            background-color: #121212;
+            background: url("zahrada.jpg") no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
             color: #fff;
             font-family: 'Open Sans', sans-serif;
             margin: 0;
@@ -29,7 +31,7 @@
         .container {
             max-width: 600px;
             padding: 20px;
-            background-color: #1e1e1e;
+            background-color: rgba(30, 30, 30, 0.75);
             border-radius: 10px;
         }
         .portrait {
@@ -58,6 +60,8 @@
             text-decoration: none;
         }
         .body-text {
+            padding-top: 10px;
+            padding-bottom: 10px;
             font-size: 1.1em;
             line-height: 1.5;
             text-align: left;
@@ -82,20 +86,20 @@
 <body>
 
 <div class="container">
-    <img class="portrait" src="portrait.jpg" alt="Portrait of Empty Array Band">
+    <img class="portrait" src="logo.jpg" alt="Logo of Empty Array Band">
     <div class="social-icons">
         <a href="https://youtube.com/@empty_array_band" target="_blank"><i class="fa fa-youtube"></i></a>
         <a href="https://soundcloud.com/empty_array_band" target="_blank"><i class="fa fa-soundcloud"></i></a>
         <a href="https://instagram.com/empty.array.band" target="_blank"><i class="fa fa-instagram"></i></a>
         <a href="https://facebook.com/empty.array.band" target="_blank"><i class="fa fa-facebook"></i></a>
     </div>
+    <div class="body-text">
+        <p>EmptyArray is a musical project by Adam Fiedler, Jakub Havlík, and Šimon Ille. They combine elements of jazz, blues, rock, funk, and big beat in simple grooves, which they use as a space to express their current feelings through improvisation. Each performance is therefore unique in some way, as it is freer than the basic forms of bebop, yet at the same time composed more simply than free jazz. The project aims to restore for the everyday listener a connection with music as a stream of consciousness that is constantly in motion with itself through actions and reactions.</p>
+    </div>
     <pre class="header">
       <code class="code">[...[]]
         // iterating over [a]tonal spaces</code>
     </pre>
-    <div class="body-text">
-        <p>EmptyArray is a musical project by Adam Fiedler, Jakub Havlík, and Šimon Ille. They combine elements of jazz, blues, rock, funk, and big beat in simple grooves, which they use as a space to express their current feelings through improvisation. Each performance is therefore unique in some way, as it is freer than the basic forms of bebop, yet at the same time composed more simply than free jazz. The project aims to restore for the everyday listener a connection with music as a stream of consciousness that is constantly in motion with itself through actions and reactions.</p>
-    </div>
 </div>
 
 </body>
